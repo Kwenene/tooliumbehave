@@ -1,4 +1,5 @@
 FROM Ubuntu:16.04
+USER root
 
 RUN apt-get update -qqy && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
 RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
