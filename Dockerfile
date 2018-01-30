@@ -36,5 +36,4 @@ RUN rm -Rf google-chrome-stable_current_amd64.deb
 #RUN mv -f ~/Documents/chromedriver /usr/local/bin/chromedriver
 #RUN chown root:root /usr/local/bin/chromedriver
 #RUN chmod 0755 /usr/local/bin/chromedriver
-RUN wget -O /tmp/chromedriver.zip http://chromedriver.storage.googleapis.com/2.10/chromedriver_linux64.zip && 
-sudo unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/;
+RUN wget -O /tmp/chromedriver.zip http://chromedriver.storage.googleapis.com/2.10/chromedriver_linux64.zip && unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/;
