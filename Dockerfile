@@ -29,7 +29,6 @@ RUN dpkg -i google-chrome*.deb
 RUN apt-get install -y -f
 RUN rm -Rf google-chrome-stable_current_amd64.deb
 
-
 # Install ChromeDriver.
 RUN wget -N https://chromedriver.storage.googleapis.com/index.html?path=2.35/chromedriver_linux64.zip
 RUN unzip ~/chromedriver_linux64.zip -d ~/
