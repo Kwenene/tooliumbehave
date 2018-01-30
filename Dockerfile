@@ -6,7 +6,7 @@ RUN apt-get install -y python
 RUN apt-get install -y python-pip
 RUN pip install toolium
 RUN pip install behave==1.2.5
-RUN pip install selenium
+RUN pip install -y selenium
 
 #install miscs
 RUN apt-get update
